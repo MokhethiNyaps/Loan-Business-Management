@@ -70,6 +70,6 @@ app.delete("/api/clients/:id", async (req, res) => {
   res.json({ message: "Client deleted" });
 });
 
-app.listen(PORT, () =>
+app.listen(port, () =>
   console.log(`✅ Server running at http://localhost:${port}`)
 );
