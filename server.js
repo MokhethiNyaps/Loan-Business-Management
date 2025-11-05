@@ -7,7 +7,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
@@ -71,5 +71,5 @@ app.delete("/api/clients/:id", async (req, res) => {
 });
 
 app.listen(PORT, () =>
-  console.log(`✅ Server running at http://localhost:${PORT}`)
+  console.log(`✅ Server running at http://localhost:${port}`)
 );

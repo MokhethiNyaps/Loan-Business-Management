@@ -1,14 +1,22 @@
 {
   "name": "loan-business-management",
   "version": "1.0.0",
-  "description": "A simple loan management web App",
+  "description": "A loan-business-management that helps with simple clients tracking",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Mokhethi Nyapholi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MokhethiNyaps/Loan-Business-Management.git"
+  },
+  "author": "Mokhethi",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MokhethiNyaps/Loan-Business-Management/issues"
+  },
+  "homepage": "https://github.com/MokhethiNyaps/Loan-Business-Management#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
